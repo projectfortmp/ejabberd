@@ -35,7 +35,7 @@ plain_password_required(_) -> true.
 store_type(_) -> external.
 
 check_password(User, _AuthzId, Server, Password) ->
-    'Elixir.EraXmpp.Modules.Auth':check(User, Server, Password).
+    'Elixir.Levander.Modules.Auth':check(User, Server, Password).
 
 set_password(_User, _Server, _Password) ->
     {nocache, {error, db_failure}}.
