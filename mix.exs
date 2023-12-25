@@ -102,7 +102,7 @@ defmodule Ejabberd.MixProject do
      {:cache_tab, "~> 1.0"},
      {:eimp, "~> 1.0"},
      {:ex_doc, ">= 0.0.0", only: :dev},
-     {:fast_tls, "~> 1.1"},
+     {:fast_tls, "~> 1.1", override: true},
      {:fast_xml, "~> 1.1"},
      {:fast_yaml, "~> 1.0"},
      {:idna, "~> 6.0"},
